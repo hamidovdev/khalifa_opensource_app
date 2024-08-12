@@ -1,0 +1,71 @@
+name: khalifa
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  animated_custom_dropdown: ^3.0.0
+  bloc: ^8.1.4
+  cached_network_image: ^3.3.1
+  dio: ^5.4.3+1
+  dropdown_button2: ^2.3.9
+  dropdown_model_list: ^2.1.1
+  dropdown_textfield: ^1.0.8
+  easy_localization: ^3.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.5
+  flutter_spinkit: ^5.2.1
+  flutter_staggered_grid_view: ^0.7.0
+  flutter_svg: ^2.0.10+1
+  gap: ^3.0.1
+  get_it: ^7.7.0
+  http: ^1.2.1
+  http_parser: ^4.0.2
+  image_picker: ^1.1.1
+  keyboard_dismisser: ^3.0.0
+  package_info_plus: ^8.0.0
+  pinput: ^4.0.0
+  pull_to_refresh: ^2.0.0
+  shared_preferences: ^2.2.3
+  shimmer: ^3.0.0
+  upgrader: ^10.3.0
+  url_launcher: ^6.2.6
+  version: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - asset/icons/
+    - asset/images/
+    - asset/logo/
+    - asset/translations/
+
+  fonts:
+    - family: Barlow
+      fonts:
+        - asset: asset/fonts/Barlow-Light.ttf
+        - asset: asset/fonts/Barlow-LightItalic.ttf
+        - asset: asset/fonts/Barlow-Thin.ttf
+        - asset: asset/fonts/Barlow-ThinItalic.ttf
+        - asset: asset/fonts/Barlow-Regular.ttf
+        - asset: asset/fonts/Barlow-Italic.ttf
+        - asset: asset/fonts/Barlow-Medium.ttf
+        - asset: asset/fonts/Barlow-MediumItalic.ttf
+        - asset: asset/fonts/Barlow-SemiBold.ttf
+        - asset: asset/fonts/Barlow-SemiBoldItalic.ttf
+        - asset: asset/fonts/Barlow-Bold.ttf
+        - asset: asset/fonts/Barlow-BoldItalic.ttf
+        - asset: asset/fonts/Barlow-ExtraBold.ttf
+        - asset: asset/fonts/Barlow-ExtraBoldItalic.ttf
+        - asset: asset/fonts/Barlow-Black.ttf
+        - asset: asset/fonts/Barlow-BlackItalic.ttf
